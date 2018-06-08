@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWAgain.API", "HWAgain.API\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWAgain.API.Tests", "HWAgain.API.Tests\HWAgain.API.Tests.csproj", "{E81EB244-59A0-4C24-A932-F74C1B316BC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWAgain.Console", "HWAgain.Console\HWAgain.Console.csproj", "{BBEFDEFC-8D93-4BA4-9CAC-E3233F27A78A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E81EB244-59A0-4C24-A932-F74C1B316BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E81EB244-59A0-4C24-A932-F74C1B316BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E81EB244-59A0-4C24-A932-F74C1B316BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBEFDEFC-8D93-4BA4-9CAC-E3233F27A78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEFDEFC-8D93-4BA4-9CAC-E3233F27A78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEFDEFC-8D93-4BA4-9CAC-E3233F27A78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEFDEFC-8D93-4BA4-9CAC-E3233F27A78A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
