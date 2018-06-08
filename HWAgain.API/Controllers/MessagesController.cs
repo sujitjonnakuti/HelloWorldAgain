@@ -1,4 +1,7 @@
-﻿using System;
+﻿using HWAgain.API.Areas.Contracts;
+using HWAgain.API.Areas.Providers;
+using HWAgain.API.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -10,9 +13,9 @@ namespace HWAgain.API.Controllers
     public class MessagesController : ApiController
     {
         // GET api/<controller>
-        public IEnumerable<string> Get()
+        public MessageModel Get()
         {
-            return new string[] { "value1", "value2" };
+            return new MessageProviderFactory(new StaticMessageResponder()).GetMessage();
         }
     }
 }
